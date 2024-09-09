@@ -24,6 +24,11 @@ jobs:
       - name: Build Storybook
         run: npm run build-storybook
 
+      - name: Configure Git user identity
+        run: |
+          git config --global user.email "kumarvicky6565@gmail.com"
+          git config --global user.name "vickyksingh"
+
       - name: Deploy Storybook to GitHub Pages
         run: npm run deploy-storybook
         env:
