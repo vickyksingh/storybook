@@ -27,7 +27,7 @@ jobs:
       - name: Configure Git user identity
         run: |
           git config --global user.email "kumarvicky6565@gmail.com"
-          git config --global user.name "vickyksingh"
+          git config --global user.name "vicky singh"
 
       - name: Deploy Storybook to GitHub Pages
         run: npm run deploy-storybook
